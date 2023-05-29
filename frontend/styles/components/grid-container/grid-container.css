@@ -1,0 +1,20 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+    min-height: calc(100vh - 20.11rem);
+}
+
+.grid-container__card {
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid var(--border-color);
+    background: var(--card-background);
+    border-radius: 16px;
+}
+
+.grid-container__card__img {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}

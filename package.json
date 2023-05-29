@@ -1,0 +1,32 @@
+{
+  "name": "flick-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm-run-all --parallel backend frontend",
+    "backend": "cd backend && node app.js",
+    "frontend": "cd frontend && http-server -p 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/royjosefsson/flickr-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/royjosefsson/flickr-2/issues"
+  },
+  "homepage": "https://github.com/royjosefsson/flickr-2#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "npm-run-all": "^4.1.5"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.11"
+  }
+}

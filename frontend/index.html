@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <title>Flickr Web Gallery</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Explore a captivating collection of photos from around the world on our Flickr web gallery. Discover stunning landscapes, vibrant cityscapes, incredible wildlife, and more. Immerse yourself in the beauty and creativity captured by talented photographers. Join us on this visual journey and get inspired by the diverse imagery our gallery has to offer.">
+    <link rel="stylesheet" type="text/css" href="styles/index.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="app-title">
+            Flickr Web Gallery
+            <svg class="loading__dots" xmlns="http://www.w3.org/2000/svg" width="60" height="20" viewBox="0 0 60 20">
+                <circle cx="10" cy="10" r="4" fill="#555" />
+                <circle cx="30" cy="10" r="4" fill="#555" />
+                <circle cx="50" cy="10" r="4" fill="#555" />
+            </svg>
+        </h1>
+        <input class="search-input" type="search" placeholder="Search..." />
+    </header>
+
+    <div class="container">
+        <h2 class="result-heading"></h2>
+        <main class="grid-container"></main>
+        <div class="button__next-page__wrapper">
+            <button class="button__next-page">Nästa</button>
+        </div>
+    </div>
+
+    <footer class="footer"></footer>
+
+    <script src="scripts/gallery.js" type="module"></script>
+    <script src="scripts/search.js" type="module"></script>
+</body>
+
+</html>

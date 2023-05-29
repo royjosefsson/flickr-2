@@ -1,0 +1,11 @@
+.header {
+    border-bottom: 1px solid var(--border-color);
+    background: var(--header-background);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 5rem;
+    position: sticky;
+    top: 0;
+}

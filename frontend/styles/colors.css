@@ -1,0 +1,17 @@
+:root {
+    --body: #0e0e0e;
+    --text-color: #fff;
+    --border-color: #a8b3cf33;
+
+    --card-background: #1c1f26;
+
+    --header-background: #1c1f26;
+
+    --search-background: #fff;
+    --search-text: #000;
+
+    --next-button-text: #fff;
+    --next-button-background: #4CAF50;
+    --next-button-background-hover: #45a049;
+    --next-button-background-active: #3e8e41;
+}

@@ -1,0 +1,26 @@
+.button__next-page__wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.button__next-page {
+    padding: 10px 20px;
+    background-color: var(--next-button-background);
+    color: var(--next-button-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: none;
+    width: 100%;
+    max-width: 10rem;
+}
+
+.button__next-page:hover {
+    background-color: var(--next-button-background-hover);
+}
+
+.button__next-page:active {
+    background-color: var(--next-button-background-active);
+}

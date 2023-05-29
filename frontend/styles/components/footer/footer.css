@@ -1,0 +1,6 @@
+.footer {
+    border-top: 1px solid var(--border-color);
+    background: var(--header-background);
+    padding: 20px;
+    min-height: 5rem;
+}

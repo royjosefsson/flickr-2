@@ -1,0 +1,8 @@
+@import "./grid-container/grid-container.css";
+@import "./header/header.css";
+@import "./search-input/search-input.css";
+@import "./container/container.css";
+@import "./heading/heading.css";
+@import "./footer/footer.css";
+@import "./buttons/next-page.css";
+@import "./loading-dots/loading-dots.css";
