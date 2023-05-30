@@ -16,7 +16,7 @@ const eventListeners = {
 
 const search = async (text, trigger) => {
   loadingDots.style.visibility = 'initial';
-  const apiUrl = `http://localhost:3001/v1/search?text=${text}&page=${page}`;
+  const apiUrl = `http://localhost:3001/v1/search?text=${encodeURIComponent(text)}&page=${page}`;
 
   let body;
 
